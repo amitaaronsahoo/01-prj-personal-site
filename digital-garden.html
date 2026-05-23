@@ -5,11 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Digital Garden | Amit Sahoo</title>
   <link rel="stylesheet" href="style.css">
+  <!-- Google Material Icons library for great-looking skill icons -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 <body>
   <header class="site-header">
     <div class="container header-row">
-      <a class="site-title" href="index.html">Amit Sahoo</a>
+      <a class="site-title" href="./index.html">Amit Sahoo</a>
       <nav>
         <ul class="nav-list">
           <li><a href="./index.html">Home</a></li>
@@ -32,9 +34,12 @@
 
     <section class="section section-muted">
       <div class="container card-row">
-        <!-- Note card 1: debugging method -->
+        <!-- Note card 1: debugging method with icon -->
         <article class="card">
-          <h2>Debugging with the 5 Whys</h2>
+          <div class="card-icon-header">
+            <span class="material-icons card-icon">bug_report</span>
+            <h2>Debugging with the 5 Whys</h2>
+          </div>
           <p>
             I ask why a bug happened five times to move from symptom
             to root cause. This helps me avoid quick fixes that break later.
@@ -42,9 +47,12 @@
           <p><strong>Status:</strong> Growing note</p>
         </article>
 
-        <!-- Note card 2: study process -->
+        <!-- Note card 2: study process with icon -->
         <article class="card">
-          <h2>Learning Workflow</h2>
+          <div class="card-icon-header">
+            <span class="material-icons card-icon">school</span>
+            <h2>Learning Workflow</h2>
+          </div>
           <p>
             I split hard topics into small steps, build mini experiments,
             and write short summaries in plain language after each session.
@@ -52,9 +60,12 @@
           <p><strong>Status:</strong> Updated weekly</p>
         </article>
 
-        <!-- Note card 3: calculus + coding connection -->
+        <!-- Note card 3: calculus + coding connection with icon -->
         <article class="card">
-          <h2>Math for Engineers</h2>
+          <div class="card-icon-header">
+            <span class="material-icons card-icon">calculate</span>
+            <h2>Math for Engineers</h2>
+          </div>
           <p>
             I connect calculus ideas to computing examples,
             like optimization and change over time in real systems.
@@ -66,10 +77,10 @@
 
     <section class="section container">
       <h2>Why a Digital Garden?</h2>
-      <ul class="simple-list">
-        <li>It shows how I think, not just final outcomes.</li>
-        <li>It tracks progress from beginner ideas to deeper understanding.</li>
-        <li>It becomes a reusable reference for future projects and interviews.</li>
+      <ul class="icon-list">
+        <li><span class="material-icons list-icon">visibility</span> It shows how I think, not just final outcomes.</li>
+        <li><span class="material-icons list-icon">trending_up</span> It tracks progress from beginner ideas to deeper understanding.</li>
+        <li><span class="material-icons list-icon">library_books</span> It becomes a reusable reference for future projects and interviews.</li>
       </ul>
     </section>
   </main>
@@ -81,5 +92,3 @@
   </footer>
 </body>
 </html>
-
-

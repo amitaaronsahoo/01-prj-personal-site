@@ -195,6 +195,81 @@ h2 {
   color: #93c5fd;
 }
 
+/* Icon styles for Material Icons in skill cards */
+.card-icon-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.card-icon {
+  font-size: 28px;
+  color: #f59e0b;
+}
+
+.card h3 {
+  margin: 0;
+}
+
+/* Timeline item headers with icons */
+.item-header-icon {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.item-icon {
+  font-size: 24px;
+  color: #f59e0b;
+  flex-shrink: 0;
+}
+
+.item-header-icon h3 {
+  margin: 0;
+}
+
+/* Lists with icons (certifications, contact info) */
+.icon-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.icon-list li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.list-icon {
+  font-size: 20px;
+  color: #f59e0b;
+  flex-shrink: 0;
+}
+
+/* Contact section styling */
+.contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-list li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.contact-icon {
+  font-size: 22px;
+  color: #f59e0b;
+  flex-shrink: 0;
+}
+
 /* ------------------------------
    Small screen improvements
    ------------------------------ */

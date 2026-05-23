@@ -5,11 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Maker Lab | Amit Sahoo</title>
   <link rel="stylesheet" href="style.css">
+  <!-- Google Material Icons library for great-looking skill icons -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 <body>
   <header class="site-header">
     <div class="container header-row">
-      <a class="site-title" href="index.html">Amit Sahoo</a>
+      <a class="site-title" href="./index.html">Amit Sahoo</a>
       <nav>
         <ul class="nav-list">
           <li><a href="./index.html">Home</a></li>
@@ -33,9 +35,12 @@
 
     <section class="section section-muted">
       <div class="container card-row">
-        <!-- Maker project card 1 -->
+        <!-- Maker project card 1 with icon -->
         <article class="card">
-          <h2>3D Modeling in Onshape</h2>
+          <div class="card-icon-header">
+            <span class="material-icons card-icon">architecture</span>
+            <h2>3D Modeling in Onshape</h2>
+          </div>
           <p>
             Designed practical parts for testing fit, durability,
             and simple assembly workflows.
@@ -43,9 +48,12 @@
           <p><strong>Focus:</strong> Function-first mechanical design</p>
         </article>
 
-        <!-- Maker project card 2 -->
+        <!-- Maker project card 2 with icon -->
         <article class="card">
-          <h2>3D Printing Projects</h2>
+          <div class="card-icon-header">
+            <span class="material-icons card-icon">print</span>
+            <h2>3D Printing Projects</h2>
+          </div>
           <p>
             Printed functional prototypes and adjusted dimensions
             based on test results from real use.
@@ -53,9 +61,12 @@
           <p><strong>Focus:</strong> Quick iteration and reliability</p>
         </article>
 
-        <!-- Maker project card 3 -->
+        <!-- Maker project card 3 with icon -->
         <article class="card">
-          <h2>Maintenance &amp; Modifications</h2>
+          <div class="card-icon-header">
+            <span class="material-icons card-icon">build</span>
+            <h2>Maintenance &amp; Modifications</h2>
+          </div>
           <p>
             Applied a system-level mindset to repair and maintenance tasks,
             including mechanical and electrical troubleshooting basics.
@@ -67,10 +78,10 @@
 
     <section class="section container">
       <h2>How This Helps My Software Work</h2>
-      <ul class="simple-list">
-        <li>Hands-on projects improve debugging and testing discipline.</li>
-        <li>Physical constraints teach better planning and tradeoff thinking.</li>
-        <li>Building real objects strengthens practical engineering judgment.</li>
+      <ul class="icon-list">
+        <li><span class="material-icons list-icon">check_circle</span> Hands-on projects improve debugging and testing discipline.</li>
+        <li><span class="material-icons list-icon">check_circle</span> Physical constraints teach better planning and tradeoff thinking.</li>
+        <li><span class="material-icons list-icon">check_circle</span> Building real objects strengthens practical engineering judgment.</li>
       </ul>
     </section>
   </main>
@@ -82,5 +93,3 @@
   </footer>
 </body>
 </html>
-
-

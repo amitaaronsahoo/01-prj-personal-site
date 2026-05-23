@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Amit Sahoo | Portfolio</title>
   <link rel="stylesheet" href="style.css">
+  <!-- Google Material Icons library for great-looking skill icons -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 <body>
   <!-- Simple header with site title and navigation -->
@@ -62,25 +64,41 @@
       </div>
     </section>
 
-    <!-- Skills section as simple cards for quick scanning -->
+    <!-- Skills section with icons using Google Material Icons -->
     <section id="skills" class="section section-muted">
       <div class="container">
         <h2>Skills</h2>
         <div class="card-row">
+          <!-- Programming card with code icon -->
           <article class="card">
-            <h3>Programming</h3>
+            <div class="card-icon-header">
+              <span class="material-icons card-icon">code</span>
+              <h3>Programming</h3>
+            </div>
             <p>C++, Java, C#, Python, VHDL</p>
           </article>
+          <!-- Core topics card with school icon -->
           <article class="card">
-            <h3>Core Topics</h3>
+            <div class="card-icon-header">
+              <span class="material-icons card-icon">school</span>
+              <h3>Core Topics</h3>
+            </div>
             <p>Object-Oriented Design, Data Structures, Algorithmic Problem Solving</p>
           </article>
+          <!-- Web and Product card with web icon -->
           <article class="card">
-            <h3>Web & Product</h3>
+            <div class="card-icon-header">
+              <span class="material-icons card-icon">web</span>
+              <h3>Web & Product</h3>
+            </div>
             <p>Web Development, Product Implementation, UI Improvement</p>
           </article>
+          <!-- Maker skills card with build icon -->
           <article class="card">
-            <h3>Maker Skills</h3>
+            <div class="card-icon-header">
+              <span class="material-icons card-icon">build</span>
+              <h3>Maker Skills</h3>
+            </div>
             <p>3D Modeling (Onshape), hands-on maintenance and repair mindset</p>
           </article>
         </div>
@@ -91,13 +109,19 @@
     <section id="education" class="section container">
       <h2>Education</h2>
       <article class="timeline-item">
-        <h3>University of Louisville</h3>
+        <div class="item-header-icon">
+          <span class="material-icons item-icon">school</span>
+          <h3>University of Louisville</h3>
+        </div>
         <p><strong>Degree:</strong> Bachelor of Science in Computer Science</p>
         <p><strong>GPA:</strong> 4.0</p>
         <p><strong>Relevant Coursework:</strong> Calculus, Data Structures, Computer Architecture, Object-Oriented Design</p>
       </article>
       <article class="timeline-item">
-        <h3>DuPont Manual High School</h3>
+        <div class="item-header-icon">
+          <span class="material-icons item-icon">school</span>
+          <h3>DuPont Manual High School</h3>
+        </div>
         <p><strong>Credential:</strong> High School Diploma (2018)</p>
       </article>
     </section>
@@ -106,10 +130,10 @@
     <section id="certifications" class="section section-muted">
       <div class="container">
         <h2>Certifications</h2>
-        <ul class="simple-list">
-          <li>Web Development Certificate (In Progress)</li>
-          <li>Future Goal: Cloud Fundamentals Certification</li>
-          <li>Future Goal: Front-End Developer Certification</li>
+        <ul class="icon-list">
+          <li><span class="material-icons list-icon">verified</span> Web Development Certificate (In Progress)</li>
+          <li><span class="material-icons list-icon">emoji_events</span> Future Goal: Cloud Fundamentals Certification</li>
+          <li><span class="material-icons list-icon">emoji_events</span> Future Goal: Front-End Developer Certification</li>
         </ul>
       </div>
     </section>
@@ -180,10 +204,12 @@
     <section id="contact" class="section section-muted">
       <div class="container">
         <h2>Contact</h2>
-        <p><strong>Location:</strong> Louisville, KY</p>
-        <p><strong>Email:</strong> amitaaronsahoo@gmail.com</p>
-        <p><strong>Student Email:</strong> aasaho01@louisville.edu</p>
-        <p><strong>Phone:</strong> 502-650-XXXX</p>
+        <ul class="contact-list">
+          <li><span class="material-icons contact-icon">location_on</span> <strong>Location:</strong> Louisville, KY</li>
+          <li><span class="material-icons contact-icon">email</span> <strong>Email:</strong> amitaaronsahoo@gmail.com</li>
+          <li><span class="material-icons contact-icon">school</span> <strong>Student Email:</strong> aasaho01@louisville.edu</li>
+          <li><span class="material-icons contact-icon">phone</span> <strong>Phone:</strong> 502-650-XXXX</li>
+        </ul>
       </div>
     </section>
   </main>
