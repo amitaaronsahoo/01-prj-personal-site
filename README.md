@@ -1,6 +1,29 @@
-# Project 1: Build Your Personal Website with AI!
-In this project, you will leverage AI and your knowledge of HTML and CSS to build a simple, single-page personal website that will showcase your projects.
+# Personal Portfolio Website
 
-You will use AI to help you brainstorm design ideas, apply web development best practices, and troubleshoot issues, bringing your vision to life on screen! 
+Beginner-friendly multi-page portfolio built with simple HTML and CSS.
 
-Launch a Codespace to get started. **Remember to Commit and Push** your project changes to GitHub from Codespaces to prevent losing progress.
+## Pages
+- `index.html` - Main portfolio page with hero, bio, skills, education, certifications, experience, resume, code philosophy, and contact.
+- `uses.html` - Developer setup and daily tools.
+- `digital-garden.html` - Living notes and knowledge base.
+- `maker-lab.html` - Hardware and maker project highlights.
+- `style.css` - Shared styles for all pages.
+
+## Quick Start
+1. Open `index.html` directly in your browser.
+2. Or run a local server (optional) for easier page testing:
+   - `python -m http.server 8000`
+   - Then open `http://localhost:8000`
+
+## Test Script
+Run this check to confirm your local page links are valid:
+- `./check-links.ps1`
+
+## Edit Guide
+- Update text inside each section to reflect your latest projects.
+- Add more cards by copying a `<article class="card">...</article>` block.
+- Replace placeholder certification and project details as you complete new work.
+
+## Inspiration Links
+- https://maggieappleton.com/
+- https://wesbos.com/uses

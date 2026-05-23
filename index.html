@@ -2,10 +2,203 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My Personal Site</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amit Sahoo | Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Add your HTML content here -->
+  <!-- Simple header with site title and navigation -->
+  <header class="site-header">
+    <div class="container header-row">
+      <a class="site-title" href="index.html">Amit Sahoo</a>
+      <nav>
+        <ul class="nav-list">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#bio">Bio</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="./uses.html">Uses</a></li>
+          <li><a href="./digital-garden.html">Digital Garden</a></li>
+          <li><a href="./maker-lab.html">Maker Lab</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero section introduces who you are and what this site is about -->
+    <section id="hero" class="hero-section">
+      <div class="hero-overlay">
+        <div class="container hero-content">
+          <h1>Hi, I'm Amit.</h1>
+          <p>
+            I am a Computer Science student building web development projects,
+            sharing my learning journey, and documenting how I solve problems.
+          </p>
+          <a class="button" href="#projects-shortcut">Explore My Work</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bio section with a quick personal introduction -->
+    <section id="bio" class="section container">
+      <h2>Bio</h2>
+      <div class="split-layout">
+        <img src="img/AmitSahoo.jpeg" alt="Portrait of Amit Sahoo" class="profile-image">
+        <div>
+          <p>
+            I am based in Louisville, Kentucky, and currently study Computer
+            Science at the University of Louisville.
+          </p>
+          <p>
+            I enjoy creating useful software, improving user experiences, and
+            learning how systems work from front-end design to algorithmic logic.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills section as simple cards for quick scanning -->
+    <section id="skills" class="section section-muted">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="card-row">
+          <article class="card">
+            <h3>Programming</h3>
+            <p>C++, Java, C#, Python, VHDL</p>
+          </article>
+          <article class="card">
+            <h3>Core Topics</h3>
+            <p>Object-Oriented Design, Data Structures, Algorithmic Problem Solving</p>
+          </article>
+          <article class="card">
+            <h3>Web & Product</h3>
+            <p>Web Development, Product Implementation, UI Improvement</p>
+          </article>
+          <article class="card">
+            <h3>Maker Skills</h3>
+            <p>3D Modeling (Onshape), hands-on maintenance and repair mindset</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education section with concise school details -->
+    <section id="education" class="section container">
+      <h2>Education</h2>
+      <article class="timeline-item">
+        <h3>University of Louisville</h3>
+        <p><strong>Degree:</strong> Bachelor of Science in Computer Science</p>
+        <p><strong>GPA:</strong> 4.0</p>
+        <p><strong>Relevant Coursework:</strong> Calculus, Data Structures, Computer Architecture, Object-Oriented Design</p>
+      </article>
+      <article class="timeline-item">
+        <h3>DuPont Manual High School</h3>
+        <p><strong>Credential:</strong> High School Diploma (2018)</p>
+      </article>
+    </section>
+
+    <!-- Certifications section can grow as you complete courses and exams -->
+    <section id="certifications" class="section section-muted">
+      <div class="container">
+        <h2>Certifications</h2>
+        <ul class="simple-list">
+          <li>Web Development Certificate (In Progress)</li>
+          <li>Future Goal: Cloud Fundamentals Certification</li>
+          <li>Future Goal: Front-End Developer Certification</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Experience section uses concise bullet points from your resume -->
+    <section id="experience" class="section container">
+      <h2>Experience</h2>
+      <article class="timeline-item">
+        <h3>Pharmacy Technician - Kroger (Middletown)</h3>
+        <p class="meta">Sep 2025 - Present</p>
+        <ul class="simple-list">
+          <li>Processed and verified high volumes of prescriptions with healthcare compliance.</li>
+          <li>Collaborated with pharmacists, providers, and patients to resolve insurance issues.</li>
+          <li>Managed inventory and restocking to reduce delays in a fast-paced environment.</li>
+        </ul>
+      </article>
+      <article class="timeline-item">
+        <h3>Front-End Website Developer - Startship.co</h3>
+        <p class="meta">Mar 2017 - Jan 2018</p>
+        <ul class="simple-list">
+          <li>Supported product implementation for online secondary education tools.</li>
+          <li>Modernized interface design and improved navigation performance.</li>
+        </ul>
+      </article>
+    </section>
+
+    <!-- Resume highlights section keeps your profile concise and easy to read -->
+    <section id="resume" class="section section-muted">
+      <div class="container">
+        <h2>Resume Highlights</h2>
+        <p>
+          Looking for the full resume? Contact me and I can share the latest version.
+        </p>
+        <div class="card-row" id="projects-shortcut">
+          <article class="card">
+            <h3>Technical Projects</h3>
+            <ul class="simple-list">
+              <li>Refactored a Java StudentRecord system using the Builder pattern.</li>
+              <li>Built a C++ string decoding solution using custom stack and queue structures.</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Community Involvement</h3>
+            <ul class="simple-list">
+              <li>Volunteer and Event Coordinator at local temple (2020 - Present).</li>
+              <li>Community Volunteer with the American Red Cross (2017 - 2018).</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Code philosophy explains your engineering values in a short way -->
+    <section id="code-philosophy" class="section container">
+      <h2>Code Philosophy</h2>
+      <p>
+        I aim to write code that is readable first, then optimized with purpose.
+        I value clear structure, steady improvement, and practical solutions that
+        help real users.
+      </p>
+      <p>
+        I also believe strong engineering includes communication, documentation,
+        and the ability to learn from both software and hardware projects.
+      </p>
+    </section>
+
+    <!-- Contact section uses privacy-safe details -->
+    <section id="contact" class="section section-muted">
+      <div class="container">
+        <h2>Contact</h2>
+        <p><strong>Location:</strong> Louisville, KY</p>
+        <p><strong>Email:</strong> amitaaronsahoo@gmail.com</p>
+        <p><strong>Student Email:</strong> aasaho01@louisville.edu</p>
+        <p><strong>Phone:</strong> 502-650-XXXX</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer includes inspiration links requested by the user -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>Built as a beginner-friendly portfolio website.</p>
+      <p>
+        Inspiration:
+        <a href="https://maggieappleton.com/" target="_blank" rel="noopener noreferrer">maggieappleton.com</a>
+        |
+        <a href="https://wesbos.com/uses" target="_blank" rel="noopener noreferrer">wesbos.com/uses</a>
+      </p>
+    </div>
+  </footer>
 </body>
 </html>

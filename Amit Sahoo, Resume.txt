@@ -1,0 +1,75 @@
+﻿Amit Sahoo
+Louisville, KY | 502-650-0024 | amitaaronsahoo@gmail.com | aasaho01@louisville.edu        
+
+
+PROFESSIONAL SUMMARY
+Ambitious University of Louisville student with a strong foundation in software development, algorithm design, and product implementation. Highly motivated to bridge academic excellence with real-world application through the President's Council Mentoring Program. Seeking to develop executive presence, refine professional navigation skills, and build strategic industry connections to launch a successful career in software engineering.
+
+
+EDUCATION
+University of Louisville | Louisville, KY
+Bachelor of Science in Computer Science | GPA: 4.0 | Credit Hours: [45]
+Relevant Coursework: Calculus, Data Structures, Computer Architecture, Object-Oriented Design
+
+
+* DuPont Manual High School | Louisville, KY
+High School Diploma | 05/2018
+
+
+WORK EXPERIENCE
+* Startship.co | Front end website developer | [03/2017] – [01/2018]
+
+
+Spearheaded product implementation strategies for online secondary education tools, streamlining the website and designing custom assets to use. 
+
+
+Modernized the user interface and improved site navigation and performance.
+
+
+* Kroger (Middletown) | Pharmacy Technician | 09/2025 – Present
+
+
+Processed and verified high volumes of prescriptions using complex pharmacy management software EPRN, ensuring strict compliance with healthcare regulations and safeguarding patient health.
+
+
+Facilitated critical communication between pharmacists, medical providers, and patients to resolve insurance discrepancies, streamlining the fulfillment process and enhancing patient satisfaction.
+
+
+Managed high-value pharmaceutical inventory and optimized restocking procedures, minimizing dispensing delays and maintaining continuous operational efficiency in a fast-paced environment.
+
+
+
+
+
+
+
+
+TECHNICAL PROJECTS
+
+
+System Refactoring (Java): Refactored a Java-based StudentRecord system utilizing the builder design pattern to improve data encapsulation and system architecture.
+
+
+Algorithmic Development (C++): Engineered a complex string decoding function leveraging advanced data structures, specifically utilizing custom stack and queue implementations for effective data manipulation.
+
+
+COMMUNITY INVOLVEMENT
+* Local Temple | Volunteer & Event Coordinator | [05/2020] – Present
+
+
+Managed facility maintenance and coordinated logistical support during major religious events, ensuring a welcoming and organized environment for community members.
+
+
+* American Red Cross | Community Volunteer | [03/2017] – [01/2018]
+
+
+Executed diverse community service and public health initiatives, collaborating with local teams to support community welfare and drive local engagement.
+
+
+TECHNICAL & PROFESSIONAL SKILLS
+* Programming Languages: C++, Java, C#, Python, VHDL
+
+
+Core Competencies: Object-Oriented Design, Data Structures (Linked Lists, Trees, Hashmaps, Stacks/Queues), Product Implementation, Web Development, 3D Modeling (Onshape)
+        
+Professional Traits: Algorithmic Problem Solving, Cross-Functional Collaboration, Strong Written Communication, Retail, Customer Facing sales.
