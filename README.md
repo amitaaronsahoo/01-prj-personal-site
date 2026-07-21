@@ -21,9 +21,9 @@ Run this check to confirm your local page links are valid:
 
 ## Edit Guide
 - Update text inside each section to reflect your latest projects.
-- Replace the project placeholders, titles, descriptions, and live links in the Projects section.
+- Put project images in a folder named `site pictures` and name them `project-1.jpg` through `project-6.jpg`.
+- Update the project titles, descriptions, and live links in the Projects section as needed.
 - Add more cards by copying a `<article class="card">...</article>` block.
-- Replace placeholder certification and project details as you complete new work.
 
 ## Inspiration Links
 - https://maggieappleton.com/
