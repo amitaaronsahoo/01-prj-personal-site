@@ -21,6 +21,7 @@ Run this check to confirm your local page links are valid:
 
 ## Edit Guide
 - Update text inside each section to reflect your latest projects.
+- Replace the project placeholders, titles, descriptions, and live links in the Projects section.
 - Add more cards by copying a `<article class="card">...</article>` block.
 - Replace placeholder certification and project details as you complete new work.
 
