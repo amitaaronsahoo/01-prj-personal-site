@@ -186,8 +186,9 @@ h2 {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  flex: 1 1 300px;
+  flex: 1 0 320px;
   max-width: 320px;
+  min-width: 300px;
   text-align: center;
   padding: 0 0 16px;
   border-radius: 12px;
